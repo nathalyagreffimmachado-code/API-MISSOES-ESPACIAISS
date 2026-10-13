@@ -1,0 +1,36 @@
+{
+  "name": "api-missoes-espaciais",
+  "version": "1.0.0",
+  "description": "API Rest de Missoes Espaciais",
+  "homepage": "https://github.com/gabriellycostadossantos063-ux/API-Missoes-Espaciais#readme",
+  "bugs": {
+    "url": "https://github.com/gabriellycostadossantos063-ux/API-Missoes-Espaciais/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellycostadossantos063-ux/API-Missoes-Espaciais.git"
+  },
+  "license": "ISC",
+  "author": "Gabrielly",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "init": "^0.1.2",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.5.2",
+    "supertest": "^7.3.1"
+  }
+}
+ 
+ 
